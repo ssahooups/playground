@@ -18,7 +18,7 @@ namespace Play.API
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            //test master comment
+            //test master comment test
         }
 
         public IConfiguration Configuration { get; }
@@ -32,6 +32,7 @@ namespace Play.API
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            //test merge
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

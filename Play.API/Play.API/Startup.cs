@@ -18,7 +18,7 @@ namespace Play.API
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            //test master comment
+            //test master comment test
         }
 
         public IConfiguration Configuration { get; }
